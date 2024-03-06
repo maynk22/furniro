@@ -1,0 +1,24 @@
+.btnDiv{
+    width: 100%;
+    height: 65px;
+}
+
+.btn{
+    background-color: #B88E2F;
+    height: 100%;
+    width: 35%;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+}
