@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Product.css"; // Assuming the CSS file is named styles.css and is in the same directory.
+import "../styles/Product.css";
 import { Link } from "react-router-dom";
 
 const ProductCard = ({ product }) => {
