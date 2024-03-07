@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/BottomCarousel.css"; // Assuming you have a separate CSS file named Carousel.css
+import "../styles/BottomCarousel.css"; 
 
 const BottomCarousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
