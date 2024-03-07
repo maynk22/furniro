@@ -8,7 +8,6 @@ import BottomCarousel from "../components/BottomCarousel";
 
 function Home() {
   useEffect(() => {
-    // Wait for a slight moment to ensure images are loaded, then trigger the animation
     setTimeout(() => {
       document.querySelectorAll(".gallery img").forEach((img) => {
         img.classList.add("animateImage");
